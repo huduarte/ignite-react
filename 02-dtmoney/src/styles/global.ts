@@ -2,14 +2,16 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --background: #f0f2f5;
-    --red: #E52E4D;
-    --blue: #5429CC;
-    --blue-light: #6933FF;
-    --text-title: #363F5F;
-    --text-body: #969CB3;
-    --shape: #FFFFFF;
-  }
+    -background: #f2f4f9;
+    --red: #e52e4d;
+    --blue: #5429cc;
+    --green: #33cc95;
+    --blue-light: #6933ff;
+    
+    --text-title: #363f4f;
+    --text-body: #969cb3;
+    --shape: #ffffff;
+}
   
   * {
     margin: 0;
@@ -28,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(---background);
+    background: #f2f4f9;
     -webkit-font-smoothing: antialiased;
   }
 
